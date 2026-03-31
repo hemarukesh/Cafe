@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Moonlight Cafe</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<img src="src\logo.png" class="logo">
+
+<nav>
+<a href="#home">Home</a>
+<a href="#menu">Menu</a>
+<a href="#order">Order</a>
+<a href="#feedback">Customer Feedback</a>
+<a href="#recipe">Drop Your Recipe</a>
+</nav>
+</header>
+
+
+<section id="home" class="home">
+
+<h1>Welcome to Moonlight Cafe</h1>
+<p>A Sip of Serenity</p>
+
+</section>
+
+
+<section id="menu">
+
+<h2>Our Menu</h2>
+
+<div id="menu-container"></div>
+
+</section>
+
+
+<section id="order">
+
+<h2>Your Cart</h2>
+
+<div id="cart-items"></div>
+
+<h3>Delivery Address</h3>
+
+<input type="text" id="address" placeholder="Enter Address">
+
+<h3>Payment Mode</h3>
+
+<select id="payment">
+
+<option>Cash on Delivery</option>
+<option>UPI</option>
+<option>Card</option>
+
+</select>
+
+<br><br>
+
+<button onclick="confirmOrder()">Confirm Order</button>
+
+<p id="order-msg"></p>
+
+</section>
+
+
+<section id="feedback">
+
+<h2>Customer Feedback</h2>
+
+<textarea placeholder="Write your feedback"></textarea>
+<br>
+<button>Submit</button>
+
+</section>
+
+
+<section id="recipe">
+
+<h2>Drop Your Recipe</h2>
+
+<textarea placeholder="Share your coffee recipe"></textarea>
+<br>
+<button>Submit</button>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>

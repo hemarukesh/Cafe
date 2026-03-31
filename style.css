@@ -1,0 +1,85 @@
+body{
+font-family: Arial;
+margin:0;
+background:#111;
+color:white;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#2b1d16;
+padding:10px 40px;
+}
+
+.logo{
+height:80px;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-size:18px;
+}
+
+nav a:hover{
+color:orange;
+}
+
+.home{
+    
+background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+            url("src/cafe-bg.png");
+background-size: cover;
+background-position: center;
+height: 100vh;
+
+}
+
+.home h1{
+font-size:50px;
+}
+
+section{
+padding:50px;
+}
+
+#menu-container{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+}
+
+.card{
+background:#222;
+padding:15px;
+border-radius:10px;
+text-align:center;
+}
+
+.card img{
+width:100%;
+height:150px;
+object-fit:cover;
+border-radius:10px;
+}
+
+button{
+background:orange;
+border:none;
+padding:10px 20px;
+cursor:pointer;
+margin-top:10px;
+}
+
+button:hover{
+background:gold;
+}
+
+input,select,textarea{
+width:300px;
+padding:10px;
+margin-top:10px;
+}
