@@ -1,4 +1,4 @@
-background:url("src/cafe-bg.png");
+*{background:url("src/cafe-bg.png");
 background-size:contain;
 height:500px;
 display:flex;
@@ -6,3 +6,4 @@ flex-direction:column;
 justify-content:center;
 align-items:center;
 text-align:center;
+}
