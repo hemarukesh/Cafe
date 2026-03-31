@@ -4,7 +4,7 @@ let menu=[
 {name:"Cappuccino",price:150,ingredient:"Milk, Coffee",img:"src/capacino.png"},
 {name:"Latte",price:160,ingredient:"Milk, Espresso",img:"src/latte.png"},
 {name:"Mocha",price:170,ingredient:"Chocolate, Coffee",img:"src/mocha.png"},
-{name:"Americano",price:130,ingredient:"Espresso, Water",img:"src/americano1.png"},
+{name:"Americano",price:130,ingredient:"Espresso, Water",img:"src/espreso.png"},
 {name:"Flat White",price:150,ingredient:"Milk, Espresso",img:"src/flatwhite.png"},
 {name:"Cold Coffee",price:180,ingredient:"Milk, Ice",img:"src/coldcoffee.png"},
 {name:"Caramel Coffee",price:200,ingredient:"Caramel, Milk",img:"src/caramelcoffee.png"},
